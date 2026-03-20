@@ -1576,10 +1576,12 @@ ul, ol {
     transition: right var(--transition-base);
     box-shadow: var(--shadow-xl);
     z-index: 1000;
+    visibility: hidden;
   }
 
   .nav-links.open {
     right: 0;
+    visibility: visible;
   }
 
   .nav-toggle {
