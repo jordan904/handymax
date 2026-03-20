@@ -1575,6 +1575,7 @@ ul, ol {
     gap: var(--space-md);
     transition: right var(--transition-base);
     box-shadow: var(--shadow-xl);
+    z-index: 1000;
   }
 
   .nav-links.open {
@@ -1583,6 +1584,8 @@ ul, ol {
 
   .nav-toggle {
     display: flex;
+    z-index: 1001;
+    position: relative;
   }
 
   .nav-cta {
