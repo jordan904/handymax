@@ -193,13 +193,14 @@ ul, ol {
   width: 100%;
   height: var(--nav-height);
   z-index: 1000;
-  background: transparent;
+  background: linear-gradient(180deg, #1a56c7 0%, #1446a8 50%, #0f3a8e 100%);
+  box-shadow: 0 4px 12px rgba(15, 50, 120, 0.4), 0 2px 4px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.15);
   transition: background var(--transition-base), box-shadow var(--transition-base);
 }
 
 .navbar.scrolled {
-  background: var(--color-primary);
-  box-shadow: var(--shadow-lg);
+  background: linear-gradient(180deg, #1446a8 0%, #0f3a8e 50%, #0a2d6e 100%);
+  box-shadow: 0 6px 20px rgba(10, 40, 100, 0.5), 0 3px 6px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 
 .navbar .container {
