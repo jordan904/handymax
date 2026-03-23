@@ -363,6 +363,16 @@ ul, ol {
   padding: var(--space-4xl) 0;
 }
 
+.hero-logo {
+  width: 120px;
+  height: 120px;
+  border-radius: var(--radius-full);
+  object-fit: cover;
+  margin-bottom: var(--space-xl);
+  box-shadow: 0 0 40px rgba(245, 158, 11, 0.3), 0 0 80px rgba(245, 158, 11, 0.1);
+  border: 3px solid rgba(245, 158, 11, 0.3);
+}
+
 .hero-badge {
   display: inline-flex;
   align-items: center;
