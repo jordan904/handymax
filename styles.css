@@ -1601,7 +1601,7 @@ ul, ol {
     gap: var(--space-md);
     transition: right var(--transition-base);
     box-shadow: var(--shadow-xl);
-    z-index: 1000;
+    z-index: 9998;
     visibility: hidden;
   }
 
@@ -1612,7 +1612,7 @@ ul, ol {
 
   .nav-toggle {
     display: flex;
-    z-index: 1001;
+    z-index: 9999;
     position: relative;
   }
 
